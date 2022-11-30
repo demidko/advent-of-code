@@ -1,48 +1,20 @@
-# Advent of Code: one day template
+# Advent of Code 2022
 
-The cross-platform native Kotlin template.
-
-## Usage
-
-Make sure you are signed in to your GitHub account, then just [click here](https://github.com/demidko/advent-of-code/generate)
-to use template.
-
-## Download
-
-GitHub CI automatically generates versions of the application for different operating systems. See the Actions Tab.
+Template for solving problems within one day.
 
 ## Build
 
-You can build the utility yourself from the source code. We need GCC or LLVM or Visual Studio toolchain. If you are
-using Windows, you need to configure [`windowsVsVarsPath`](build.gradle.kts) property.
+You need JDK installed. Then use Gradle:
 
 ```shell
 ./gradlew clean build
 ```
 
-After that, we can run the release app:
+## Usage
+
+Just tell the number of the day:
 
 ```shell
-./build/graal/utility
+java -jar build/libs/advent-of-code-all.jar 1
 ```
-
-## Containerization
-
-To build the image, we need Docker installed:
-
-```shell
-docker build . -t utility
-```
-
-After that, we can run the app in the container (if needed):
-
-```shell
-docker run -v `pwd`:`pwd` -w `pwd` -it --rm -p 80:80 utility
-```
-
-To clean up Docker use `docker system prune -fa`
-
-## Interop with Java
-
-By default, you can use any java class or library in this project.
 
