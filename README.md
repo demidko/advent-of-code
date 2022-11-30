@@ -12,9 +12,9 @@ You need JDK installed. Then use Gradle:
 
 ## Usage
 
-Just tell the number of the day:
+For example:
 
 ```shell
-java -jar build/libs/advent-of-code-all.jar 1
+java -jar build/libs/advent-of-code-all.jar
 ```
 

@@ -2,8 +2,8 @@ package com.adventofcode
 
 import java.net.URL
 
-fun main(args: Array<String>) {
-  val day = args.first().toUShort()
+fun main() {
+  val day = 1
   val url = URL("https://adventofcode.com/2022/day/$day/input")
   url.openStream()
     .bufferedReader()
