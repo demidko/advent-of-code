@@ -1,19 +1,15 @@
-# Utility
+# Advent of Code: one day template
 
-The cross-platform native Kotlin command line tool template.
+The cross-platform native Kotlin template.
 
 ## Usage
 
-Make sure you are signed in to your GitHub account, then just [click here](https://github.com/demidko/utility/generate)
+Make sure you are signed in to your GitHub account, then just [click here](https://github.com/demidko/advent-of-code/generate)
 to use template.
 
 ## Download
 
 GitHub CI automatically generates versions of the application for different operating systems. See the Actions Tab.
-
-* [Windows version]()
-* [macOS version]()
-* [Linux version]()
 
 ## Build
 
