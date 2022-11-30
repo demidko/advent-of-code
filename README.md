@@ -1,4 +1,4 @@
-# Advent of Code 2022
+# Advent of Code
 
 Template for solving problems within one day.
 
