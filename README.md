@@ -15,6 +15,6 @@ You need JDK installed. Then use Gradle:
 For example:
 
 ```shell
-java -jar build/libs/advent-of-code-all.jar day.1.txt
+java -jar build/libs/advent-of-code-all.jar
 ```
 

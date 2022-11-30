@@ -1,11 +1,9 @@
 package com.adventofcode
 
-import java.io.File
-
-fun main(args: Array<String>) {
-  File(args.first()).forEachLine {
-
-  }
+fun main() {
+  val resource = ::main.javaClass.getResourceAsStream("/day1.example.txt")!!
+  val reader = resource.bufferedReader()
+  reader.forEachLine(::println)
 }
 
 
