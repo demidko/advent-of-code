@@ -1,15 +1,9 @@
 package com.adventofcode
 
-import java.net.URL
-
 fun main() {
-  val day = 1
-  val url = URL("https://adventofcode.com/2022/day/$day/input")
-  url.openStream()
-    .bufferedReader()
-    .forEachLine(::process)
+  processDay(1) { l ->
+
+  }
 }
 
-fun process(line: String) {
 
-}
