@@ -1,7 +1,9 @@
 package com.adventofcode
 
-fun main() {
-  processDay(1) { l ->
+import java.io.File
+
+fun main(args: Array<String>) {
+  File(args.first()).forEachLine {
 
   }
 }
