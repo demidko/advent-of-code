@@ -9,8 +9,7 @@ fun solution(): Long {
 }
 
 fun main() {
-  ::main
-    .javaClass
+  ::main.javaClass
     .getResourceAsStream("/input")!!
     .bufferedReader()
     .forEachLine(::process)
