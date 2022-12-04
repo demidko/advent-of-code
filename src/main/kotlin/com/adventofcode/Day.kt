@@ -1,11 +1,15 @@
 package com.adventofcode
 
-fun process(line: String) {
-  TODO()
-}
+import com.adventofcode.Day.process
+import com.adventofcode.Day.solution
 
-fun solution(): Long {
-  TODO()
+object Day {
+
+  var solution = 0L; private set
+
+  fun process(line: String) {
+    
+  }
 }
 
 fun main() {
@@ -13,5 +17,5 @@ fun main() {
     .getResourceAsStream("/input")!!
     .bufferedReader()
     .forEachLine(::process)
-  println(solution())
+  println(solution)
 }
